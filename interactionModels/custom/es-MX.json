@@ -1,0 +1,140 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SumaIntent",
+          "samples": [
+            "suma {uno} mas {dos}",
+            "suma {uno} y {dos}",
+            "{uno} y {dos}",
+            "cuanto es {uno} mas {dos}",
+            "{uno} mas {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RestaIntent",
+          "samples": [
+            "cuento queda si resto {dos} y {uno}",
+            "resta el {uno} con el {dos}",
+            "resta el {uno} y {dos}",
+            "resta {uno} menos {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MultiplicacionIntent",
+          "samples": [
+            "{uno} multiplicado por {dos}",
+            "{uno} por {dos}",
+            "multiplica {uno} y {dos}",
+            "el resulta de {uno} por {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DivisionIntent",
+          "samples": [
+            "cuanto es {uno} entre {dos}",
+            "{uno} entre {dos}",
+            "divide {uno} y {dos}",
+            "el resultado de dividir {uno} y {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RaizIntent",
+          "samples": [
+            "rapido la raiz de {uno}",
+            "cual es la raiz de {uno}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RaizCuboIntent",
+          "samples": [
+            "raiz cubica de {uno}",
+            "cual es la raiz cubica de {uno}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "calculadora jesus antonio"
+    }
+  }
+}
